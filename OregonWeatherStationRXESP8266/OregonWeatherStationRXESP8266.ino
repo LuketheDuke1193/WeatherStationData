@@ -28,12 +28,12 @@ int minutes;
 String insertStatement = "";
 boolean statementSent = false;
 
-const char* ssid = "WIN_202544";         // The SSID (name) of the Wi-Fi network you want to connect to
-const char* password = "trfxeg97gn";     // The password of the Wi-Fi network
+const char* ssid = "SSID";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "PASSWORD";     // The password of the Wi-Fi network
 
-char hostname[] = "rds-mysql-weatherstation.cssylnken08r.us-east-2.rds.amazonaws.com"; // change to your server's hostname/URL
+char hostname[] = "HOSTNAME-OF-DATABASE"; // change to your server's hostname/URL
 char user[] = "admin";               // MySQL user login username
-char dbpassword[] = "Wolfdog1";         // MySQL user login password
+char dbpassword[] = "PASSWORD";         // MySQL user login password
 
 
 //Interface Definitions
